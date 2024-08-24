@@ -118,14 +118,22 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>D:\assimp\include;D:\assimp\build\include;C:\GLM\glm;E:\METIS;E:\METIS\build\xinclude;E:\GKlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>D:\assimp\include;D:\assimp\build\include;C:\GLM\glm;E:\METIS;E:\METIS\build\xinclude;E:\GKlib;D:\reactphysics3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> 3cb51ec (Added Ogre-next source)
       <CallingConvention>Cdecl</CallingConvention>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <AdditionalDependencies>D:\assimp\build\lib\Debug\assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalDependencies>D:\assimp\build\lib\Debug\assimp-vc143-mtd.lib;D:\reactphysics3d\build\Debug\reactphysics3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> 3cb51ec (Added Ogre-next source)
       <AssemblyDebug>true</AssemblyDebug>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
     </Link>
