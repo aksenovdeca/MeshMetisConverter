@@ -1,0 +1,2 @@
+﻿  Assimp_Mesh_Test.cpp
+D:\assimp\build\bin\Debug\assimp-vc142-mtd.dll : fatal error LNK1107: invalid or corrupt file: cannot read at 0x370
